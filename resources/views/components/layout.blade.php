@@ -33,6 +33,7 @@
                                 <x-navLink href="/" :active="request()->is('/')">Home</x-navLink>
                                 <x-navLink href="/about" :active="request()->is('about')">About</x-navLink>
                                 <x-navLink href="/contact" :active="request()->is('contact')" type="button">Contact</x-navLink>
+                                <x-navLink href="/jobs" :active="request()->is('jobs')">Jobs</x-navLink>
                             </div>
                         </div>
                     </div>
